@@ -10,12 +10,12 @@ namespace special_keyboard
         {
             try
             {
-                string input = "abcdefghijklmnopqrstuvwxyz";
+                string input = "pqrstuvwxyzabcdefghijklmno";
 
                 Console.WriteLine(input.Length);
 
-                string output = "abc";
-
+                string output = "leetcode";                
+                
                 /*
                 if (output.Length > 1 && output.Length < 10)
                 {
